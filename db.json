@@ -1,37 +1,89 @@
 {
-  "clientes": [
+  "sessions": [
     {
-      "id": "3",
-      "dni": "LJKRJFNK44S4",
-      "nombre": "Manfredo Torres Redondo",
-      "fecha_de_ingreso": "2016-05-18",
-      "genero": "H",
-      "avatar": "avatares/kllwe924i99kñl23k40320rkrwo3wño0.jpg",
-      "activo": "S",
-      "email": "",
-      "Direccion": "",
-      "Poblacion": "",
-      "telefono": ""
+      "id": 1,
+      "title": "Start",
+      "description": "- 00:00 - WOD #1: RUN.  \n - 04:48 - WOD #2: MAX TOTAL SNATCH.   \n - 10:12 - WOD #3: JUST BREATHE.      \n - 12:19 - WOD #4: GYMNASTY.      \n - 13:14 - WOD #5: PULL 'N CARRY.      \n - 14:50 - CrossFit Reykjavík: WOD con Anasagasti.      \n - 19:16 - WOD #6: #DÓTTIR.      \n - 21:42 - WOD #7: GUNS 'N SHOULDERS.      \n - 23:24 - WOD #FINAL.",
+      "hardlevel": 4
     },
     {
-      "id": "4",
-      "dni": "ASLKJ3LK4LRFLKF4",
-      "nombre": "María Fernanda Gómez De La Causa",
-      "fecha_de_ingreso": "2017-08-17",
-      "genero": "M",
-      "avatar": "avatares/sin_avatar.jpg",
+      "id": 2,
+      "title": "Games Prep1",
+      "description": "FOR TIME:      \n - 3 ROPE CLIMBS (6n).      \n - 12 OVER THE BOX/BAR        SANDBAG BURPEE @90/60      \n - 3 ROPE CLIMBS.      \n - 9 OVER THE BOX/BAR       SANDBAG BURPEE @90/60       \n - 3 ROPE CLIMBS.      \n - 9 OVER THE BOX/BAR       SANDBAG BURPEE @90/60",
+      "hardlevel": 3
+    },
+    {
+      "id": 3,
+      "title": "Games Prep3",
+      "description": "REPETITIONS FOR TIME:      \n - 10' ROPE CLIMBS (6n).      \n - 12 OVER THE BOX/BAR        SANDBAG BURPEE @90/60",
+      "hardlevel": 4
+    },
+    {
+      "id": 4,
+      "title": "Games Prep4",
+      "description": "REPETITIONS FOR TIME:      \n - 20' SANDBAG BURPEE @90/60",
+      "hardlevel": 5
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "dni": "LJKRJFNK44S4",
+      "nombre": "MARC ORDEIG",
+      "fecha_de_ingreso": "2016-05-18",
+      "genero": "H",
+      "avatar": "avatares/marc-ordeig-creador-headcoach.jpg",
       "activo": "S",
       "email": "",
       "Direccion": "",
       "Poblacion": "",
-      "telefono": ""
+      "telefono": "",
+      "description": " Creador y Head Coach de The Traktor®.\n 5 veces atleta de Regionales (2013, 2014, 2016, 2017, 2018). \n      Licenciado en Ciencias de la Actividad Física y el Deporte (INEFC Barcelona).\n       Especializado en Alto Rendimiento Deportivo."
+    },
+    {
+      "id": "2",
+      "dni": "ASLKJ3LK4LRFLKF4",
+      "nombre": "JOSE INSUA",
+      "fecha_de_ingreso": "2017-08-17",
+      "genero": "H",
+      "avatar": "avatares/jose-insua-coach.jpg",
+      "activo": "S",
+      "email": "",
+      "Direccion": "",
+      "Poblacion": "",
+      "telefono": "",
+      "description": "Coach de The Traktor®.\n     Titulado en IFBB (International Federation of Bodybuilding and Fitness).\n       Especializado en Readaptación Deportiva.\n       10 años de experiencia en el mundo del entrenamiento."
+    },
+    {
+      "id": "16084166631563102707529701899",
+      "nombre": "ARMANDO",
+      "genero": "H",
+      "avatar": "",
+      "activo": "S",
+      "email": "armandrodgo@gmail.com",
+      "direccion": "Casa",
+      "poblacion": "Pueblo ",
+      "telefono": "936204562",
+      "description": "Titulado en levantamiento de Carretillas \n -Campeón de lanzamiento de Tortilla, La Alpujarra - 2008- 2010-2011 \n Reconocido miembro del la Real Heigthweiss Academy."
+    },
+    {
+      "id": "53820844156311049094201559294",
+      "nombre": "Armand Rodríguez Muñoz",
+      "genero": "H",
+      "avatar": "avatares/armand-rodriguez.jpg",
+      "activo": "S",
+      "email": "armandrodmu@gmail.com",
+      "direccion": "Casa",
+      "poblacion": "Pueblo",
+      "telefono": "936102546",
+      "description": "Muy fuertote! \nLevanta 10 Toneladas.\nCampeón"
     }
   ],
   "users": [
     {
       "email": "nilson@email.com",
       "password": "$2a$10$es8WV1gU8oAszTn4SyNogO3wc4qUL4xuYYw67br67Gg8TnijsFNMC",
-      "user":"nilson",
+      "user": "nilson",
       "id": 1
     },
     {
@@ -39,6 +91,16 @@
       "password": "$2a$10$7qQB7bP0Y2rg9HV6AVXAAOb25zMIcWNPqlVdeChADWS4uHPw8rPY2",
       "user": "mi",
       "id": 2
+    },
+    {
+      "email": "robert@mail.com",
+      "password": "$2a$10$a.Yol5Lhpcz7cDkS1xsWHuYKiC7X5u.XqEw5cIm6uaaQrJFlO7ASm",
+      "id": 3
+    },
+    {
+      "email": "armandrodgo@gmail.com",
+      "password": "$2a$10$kM1SX7JfQ7h69oskaTYcSOLc8XxWFkz6qKYFf9.NnkS2mfLsjO8um",
+      "id": 4
     }
   ]
 }
